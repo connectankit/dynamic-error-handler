@@ -1,0 +1,30 @@
+{
+  "name": "dynamic-error-handler",
+  "version": "1.0.1",
+  "description": "A clean, dynamic Express error handler middleware with AppError class and centralized logging.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Ankit Kumar",
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "error-handler",
+    "middleware",
+    "typescript",
+    "api",
+    "app-error"
+  ],
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
